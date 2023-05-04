@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
+*{
+	/* outline:#4CAF50 solid 2px; */
+
+}
+
+body{
+	background-color: #f3f3f3 ;		
+}
+
+input{
+	background-color: #f3f3f3;
+}
+
+textarea{
+	background-color: #f3f3f3;
+}
+
+table,tr,th,td{
+	outline: 1px solid black;
+	padding: 20px;
+	gap: 20px;
+}
+
+.leaflet-container {
+  width: 100wh; 
+  height: 100vh;
+}
+
+.canvas-container {
+  height: 100vh;
+}
